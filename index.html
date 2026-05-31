@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Developer</title>
+    <link rel="icon" href="favicon.ico" />
+
+    <!-- ============================================
+       Google Fonts — diambil dari internet
+  ============================================= -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Akt:wght@100..900&display=swap" rel="stylesheet">
+    <!-- ============================================
+       Hubungkan ke file CSS eksternal
+       Pastikan style.css ada di folder yang sama
+  ============================================= -->
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav id="navbar">
+        <!-- Logo -->
+        <div class="logo-glitch">
+            <span class="bracket">{</span>
+            <span class="dev">Frontend</span>
+            <span class="bracket">}</span>
+        </div>
+
+        <!-- Menu navigasi desktop -->
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Tombol hamburger (hanya muncul di mobile) -->
+        <button class="burger" id="burger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+
+    <!-- ==================== HERO ==================== -->
+    <section id="home">
+        <div>
+            <!-- Avatar / foto profil -->
+            <div class="avatar">👨‍💻</div>
+
+            <!-- Judul utama -->
+            <h1 class="hero-title">
+                Experienced Frontend Developer<br>
+                Responsive UI/UX <span class="highlight">design</span>
+            </h1>
+
+            <!-- Deskripsi singkat -->
+            <p class="hero-subtitle">
+                Experienced Frontend Developer specializing in responsive, beautiful, and intuitive UI/UX for all
+                devices
+            </p>
+
+            <!-- Tombol Call To Action -->
+            <div class="cta-group">
+                <a href="#projects" class="btn btn-primary">Projects</a>
+                <a href="resume-1.pdf" class="btn btn-outline" download="resume-1.pdf">Resume</a>
+            </div>
+
+            <!-- Ikon teknologi yang dikuasai -->
+            <div>
+                <p class="tech-label" style="margin-top:40px;">Experience With</p>
+                <div class="tech-row">
+                    <div class="tech-badge" title="HTML"><img src="html.png" alt="HTML5" /></div>
+                    <div class="tech-badge" title="CSS"><img src="css-3.png" alt="CSS" /></div>
+                    <div class="tech-badge" title="JavaScript"><img src="js.png" alt="JavaScript" /></div>
+                    <!-- <div class="tech-badge" title="React">⚛️</div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==================== PROJECTS ==================== -->
+    <section id="projects">
+        <p class="section-label">Portfolio</p>
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-grid">
+
+            <!-- Kartu 1: HTML Tutorial -->
+            <div class="project-card" data-url="https://imam678.github.io/Expense-Tracker/">
+                <div class="project-thumb">
+                    <img src="cp-1.png" alt="Expense Tracker Preview" />
+                    <div class="overlay">↗ Visit Project</div>
+                </div>
+                <div class="project-info">
+                    <span class="project-tag">HTML</span>
+                    <span class="project-tag">CSS</span>
+                    <span class="project-tag">JavaScript</span>
+                    <h3>Expense Tracker</h3>
+                    <p>Recording incoming and outgoing cash usage with a responsive mobile user interface.</p>
+                </div>
+            </div>
+
+            <!-- Kartu 2: CSS Tutorial -->
+            <div class="project-card" data-url="https://imam678.github.io/login-section/">
+                <div class="project-thumb css-bg">
+                    <img src="cp-2.png" alt="login Section Preview" />
+                    <div class="overlay">↗ Visit Project</div>
+                </div>
+                <div class="project-info">
+                    <span class="project-tag">HTML</span>
+                    <span class="project-tag">CSS</span>
+                    <span class="project-tag">JavaScript</span>
+                    <h3>Login Section</h3>
+                    <p>login page, with good animation and responsive design.</p>
+                </div>
+            </div>
+
+            <!-- Kartu 3: AWS -->
+            <div class="project-card" data-url="https://imam678.github.io/timer/">
+                <div class="project-thumb aws-bg">
+                    <img src="cp-3.png" alt="timer Preview" />
+                    <div class="overlay">↗ Visit Project</div>
+                </div>
+                <div class="project-info">
+                    <span class="project-tag">HTML</span>
+                    <span class="project-tag">CSS</span>
+                    <span class="project-tag">JavaScript</span>
+                    <h3>Stopwatch</h3>
+                    <p>Web application for measuring hours, minutes, seconds, which can be used on the web.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ==================== EXPERIENCE ==================== -->
+    <section id="experience">
+        <p class="section-label">Career</p>
+        <h2 class="section-title">Experience</h2>
+
+        <div class="timeline">
+
+            <!-- Item 1: Google -->
+            <div class="exp-item">
+                <div class="exp-header">
+                    <div class="exp-company">
+                        <div class="company-icon">🔍</div>
+                        <div class="exp-role">Implementation & Debugging</div>
+                    </div>
+                    <span class="exp-period">Mei 2026</span>
+                </div>
+                <p class="exp-desc">
+                    Focused on responsive web mobile to desktop and have good problem solving in implementation and
+                    debugging.
+                </p>
+            </div>
+
+            <!-- Item 2: Meta -->
+            <div class="exp-item">
+                <div class="exp-header">
+                    <div class="exp-company">
+                        <div class="company-icon">∞</div>
+                        <div class="exp-role">Familiar with Code</div>
+                    </div>
+                    <span class="exp-period">Mei 2026</span>
+                </div>
+                <p class="exp-desc">
+                    Familiar with HTML, CSS, JavaScript code to be able to write code that is easy to maintain across
+                    development teams.
+                </p>
+            </div>
+
+            <!-- Item 3: Apple -->
+            <div class="exp-item">
+                <div class="exp-header">
+                    <div class="exp-company">
+                        <div class="company-icon">🍎</div>
+                        <div class="exp-role">Figma to Code</div>
+                    </div>
+                    <span class="exp-period">Mei 2026</span>
+                </div>
+                <p class="exp-desc">
+                    Collaborate to translate UI design with Figma in to code until it becomes a display that is
+                    responsive and user-friendly.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ==================== CONTACT ==================== -->
+    <section id="contact">
+        <p class="section-label">Say Hello</p>
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact-card">
+            <p>
+                Frontend developer who focuses on responsive UI/UX displays for all devices, with experience in HTML,
+                CSS, and JavaScript.
+            </p>
+
+            <!-- Tampilkan email -->
+            <div class="email-display">
+                📧 imamridwan164@gmail.com
+            </div>
+
+            <!-- Tombol kirim email -->
+            <a href="https://mail.google.com/mail/?view=cm&to=imamridwan164@gmail.com" target="_blank"
+                class="btn btn-primary email-btn">
+                Send Email
+            </a>
+
+            <!-- Ikon sosial media -->
+            <div class="uuy">
+                <div class="social-links" data-url="https://www.linkedin.com/in/imam-ridwan-265160329/">
+                    <a href="#" class="social-btn" title="LinkedIn"><img src="linkedin.png"></a>
+                </div>
+
+                <div class="social-links" data-url="https://github.com/imam678">
+                    <a href="#" class="social-btn" title="GitHub"><img src="github.png"></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+        <!-- <p>Dibuat dengan <span>❤️</span> menggunakan HTML, CSS & JavaScript murni.</p> -->
+    </footer>
+
+
+    <!-- ============================================
+       Hubungkan ke file JavaScript eksternal
+       Diletakkan di BAWAH body agar HTML dimuat
+       dulu sebelum JS dijalankan
+  ============================================= -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
